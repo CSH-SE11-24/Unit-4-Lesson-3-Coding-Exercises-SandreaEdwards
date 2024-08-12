@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+background-color: lightgray;
+}
+
+p{
+  color: #810971;
+  font-size: 25px
+}
+
+h1{
+  text-align: center;
+  font-family:Lucida-Console;
+}
+  
+h2{
+  text-align: center;
+  
+}
+.container-fluid{
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

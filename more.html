@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Coding Exercises</title>
+ <!-- Task 0: Link your .css file to your html page using the <link> tag BELOW-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel = "stylesheet" href = "style.css">
+  
+</head>
+<!-- Task 1: Style the body element to give the whole page a background color light blue -->
+<body>
+<!-- navbar --> 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.cdc.gov/ticks/index.html"><img src = "tick.jpg" width="50 vw"> Ticks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="more.html">More Info</a>
+          </li>
+    
+          </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Task 2-4: Style each element in style.css based on the text.-->
+  <p>Ticks are a common issue in North America.</p>
+  
+  <h1>What is a Tick??</h1>
+  
+  <h2>Ticks are parasitic arachnids that are part of the mite superorder Parasitiformes. Adult ticks are approximately 3 to 5 mm in length depending on age, sex, species, and "fullness". Ticks are external parasites, living by feeding on the blood of mammals, birds, and sometimes reptiles and amphibians.</h2>
+  
+  <!-- Tick carousel -->
+
+  
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="tick.jpg" class="d-block w-100" alt="tick">
+      </div>
+      <div class="carousel-item">
+        <img src="Tick bite.jpg" class="d-block w-100" alt="tick">
+      </div>
+      <div class="carousel-item">
+        <img src="tick3.webp" class="d-block w-100" alt="tick">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

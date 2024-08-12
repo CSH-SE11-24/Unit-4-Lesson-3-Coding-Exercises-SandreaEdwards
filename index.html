@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Coding Exercises</title>
+ <!-- Task 0: Link your .css file to your html page using the <link> tag BELOW-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel = "stylesheet" href = "style.css">
+  
+</head>
+<!-- Task 1: Style the body element to give the whole page a background color light blue -->
+<body>
+<!-- navbar --> 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.cdc.gov/ticks/index.html"><img src = "tick.jpg" width="50 vw"> Ticks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="more.html">More Info</a>
+          </li>
+    
+          </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Task 2-4: Style each element in style.css based on the text.-->
+  <p>Ticks are a common issue in North America.</p>
+  
+  <h1>A tick bite can infect humans and animals with bacteria, viruses and protozoans that can cause diseases.</h1>
+  
+  <h2>What to do after removing a tick?</h2>
+  
+  <!-- Tick paragraph -->
+  <ul>
+    <li>Clean the bite area and your hands with rubbing alcohol or soap and water</li>
+    <li>Dispose of the tick by flushing it down the toilet OR bring the tick to your healthcare provider for identification(place it in a sealed bag/container.)</li>
+    <li>Go visit your healthcare provider</li>
+  </ul>
+
+  <!--tick image-->
+ <h3>This is what a tick bite will look like:</h3>
+  <img id = "tickbite" src="Tick bite.jpg" alt = "Tick Bite">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
